@@ -5,58 +5,59 @@ Tutorials on Deep Learning for Data Science with
 
 ## Content at a glance
 
-- **I**: **ANN and Automatic Differentiation**
+**I**: **ANN and Automatic Differentiation**
 
-  1. Intro to Artificial Neural Networks
+1. Intro to Artificial Neural Networks
 
-  - Short intro: Supervised vs Unsupervied Learning
-  - Perceptron: the linear Neuron model
+   - Short intro: Supervised vs Unsupervied Learning
+   - Perceptron: the linear Neuron model
 
-    - Short on Vectorisation
-    - ADAptive LInear NEuron (ADALINE)
+     - Short on Vectorisation
+     - ADAptive LInear NEuron (ADALINE)
 
-  - Multi-Layer Perceptron
+   - Multi-Layer Perceptron
 
-    - `numpy`-based implementation
-    - `torch.Tensor`-based implementation
+     - `numpy`-based implementation
+     - `torch.Tensor`-based implementation
 
-  - From ANN to DNN
+   - From ANN to DNN
 
-    - Introduction to `torch.nn`
-    - PyTorch Model Persistence
-    - Classification and Regression Revisited
-    - Short on Universal Approximation Theorem
-    - from Logistic to Softmax
-    - Multi-class Classification and `CrossEntropyLoss`
+     - Introduction to `torch.nn`
+     - PyTorch Model Persistence
+     - Classification and Regression Revisited
+     - Short on Universal Approximation Theorem
+     - from Logistic to Softmax
+     - Multi-class Classification and `CrossEntropyLoss`
 
-  2. Automatic Differentiation and `autograd`:
+2. Automatic Differentiation and `autograd`:
 
-  - Intro to Automatic Differentiation
+- Intro to Automatic Differentiation
 
-    - forwad mode AD
-    - backward mode AD
-    - `tangent` and `autograd`
+  - forwad mode AD
+  - backward mode AD
+  - `tangent` and `autograd`
 
-  - Towards `torch.nn`: [`micrograd`](https://github.com/karpathy/micrograd)
-    - `torch.Tensor` and `autograd`
+- Towards `torch.nn`: [`micrograd`](https://github.com/karpathy/micrograd)
 
-- **II**: **Data and Dataset**
+  - `torch.Tensor` and `autograd`
 
-  3. Data for Machine and Deep Learning
+**II**: **Data and Dataset**
 
-  - Data _for_ Machine (Deep) Learning
+3. Data for Machine and Deep Learning
 
-    - `torchvision`
-    - `torchtext`
-    - `torchaudio`
+- Data _for_ Machine (Deep) Learning
 
-  - Deep learning _for_ Data
+  - `torchvision`
+  - `torchtext`
+  - `torchaudio`
 
-    - Choose your Estimator
-    - Choose your DL model
+- Deep learning _for_ Data
 
-  - Data the `torch` way - Introducing `torch.utils.data`, `DataSet`, and `DataLoader`
-    - Preparing Data for Experiments - _Training_, _Test_ and _Cross Validation_
+  - Choose your Estimator
+  - Choose your DL model
+
+- Data the `torch` way - Introducing `torch.utils.data`, `DataSet`, and `DataLoader`
+  - Preparing Data for Experiments - _Training_, _Test_ and _Cross Validation_
 
 ### Requirements
 
