@@ -3,6 +3,8 @@
 Tutorials on Deep Learning for Data Science with
 ![pytorch logo](./logos/pytorch_logo_small.png)
 
+⚠️ **This repository is still WIP** so content is still in _draft mode_ - and references to external resources might be missing ⚠️
+
 ## Content at a glance
 
 **I**: **ANN and Automatic Differentiation**
