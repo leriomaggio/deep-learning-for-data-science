@@ -6,7 +6,7 @@ matplotlib==3.3
 notebook==6.2
 numpy==1.19
 pandas==1.2
-pillow==8.1
+pillow==8.1.1
 pip==21.0
 python==3.8
 pytorch==1.8
